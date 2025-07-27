@@ -1,0 +1,42 @@
+@import './base.css';
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: black; /* 確保整個頁面背景都是黑色 */
+}
+
+#app {
+  /* 移除 max-width 和 margin: 0 auto */
+  padding: 0;
+  font-weight: normal;
+  width: 100%;
+  height: 100vh; /* 讓遊戲容器佔滿整個視窗高度 */
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: #4db6e6;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: rgba(77, 182, 230, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    padding: 0;
+  }
+}
+

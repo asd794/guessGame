@@ -1,0 +1,46 @@
+# 憑證檔案（建議忽略）
+*.crt
+*.key
+
+# 環境設定檔
+.env
+config.yaml
+
+# Golang 相關
+/vendor/
+/bin/
+/*.exe
+*.out
+*.test
+app-linux
+
+# 依賴與快取
+vendor/
+coverage/
+
+# 前端 Vue 相關
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.local
+*.cache
+*.eslintcache
+
+# IDE/編輯器相關
+.vscode/
+.idea/
+.DS_Store
+
+# 其他暫存檔
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+__pycache__/
+
+*.txt
+test.*
